@@ -229,19 +229,43 @@ function initSimulation() {
 
         // When video ends, hide video/progress elements and show the start button
         video.addEventListener('ended', () => {
-            // Hide video and its controls
-            if (video) video.style.display = 'none';
-            if(simulationPreview.querySelector('.preview-content')) {
-                 simulationPreview.querySelector('.preview-content').style.display = 'none';
-            }
-            if (progressContainer) progressContainer.style.display = 'none';
-            if (progressText) progressText.style.display = 'none';
-            if (constructionTitle) constructionTitle.style.display = 'none';
+            // Hide all non-essential UI elements for a fullscreen experience
+            const topbar = document.querySelector('.topbar');
+            const bottombar = document.querySelector('.bottombar');
+            const simControls = document.querySelector('.simulation-controls');
+            const mainContent = document.querySelector('.simulation-screen');
 
-            // Show start button
-            if (startButton) {
-                startButton.style.display = 'flex';
+            if (topbar) topbar.style.display = 'none';
+            if (bottombar) bottombar.style.display = 'none';
+            if (simControls) simControls.style.display = 'none';
+
+            // Make the main content and preview area fullscreen
+            if (mainContent) {
+                mainContent.style.height = '100vh';
+                mainContent.style.padding = '0';
             }
+            if (simulationPreview) {
+                simulationPreview.style.height = '100%';
+                simulationPreview.classList.remove('blueprint-frame'); // Remove padding/border
+            }
+            
+            const webglSrc = WEBGL_MAP[projectId];
+            if (!webglSrc) {
+                console.error('WebGL path not found for project:', projectId);
+                simulationPreview.innerHTML = '<p style="color:red;">Simülasyon yüklenemedi.</p>';
+                return;
+            }
+
+            // Create and configure the iframe for the WebGL content
+            const iframe = document.createElement('iframe');
+            iframe.src = webglSrc;
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.border = 'none';
+
+            // Replace the entire content of the preview area with the iframe
+            simulationPreview.innerHTML = '';
+            simulationPreview.appendChild(iframe);
         });
 
         // *** CORRECTED LOGIC FOR THE START BUTTON ***
