@@ -13,7 +13,7 @@ const PROJECT_DATA = {
             'Kule Yüksekliği': '318 m',
             'Toplam Uzunluk': '4,608 m'
         },
-        description: "1915 Çanakkale Köprüsü, Çanakkale Boğazı'nın iki yakasını birbirine bağlayan, dünyanın en uzun asma köprüsüdür. Cumhuriyet'in 100. yılına ithafen 2023 metre orta açıklığı simgelemektedir.",
+        description: "1915 Çanakkale Köprüsü, Çanakkale Boğazı üzerinde Lapseki ile Gelibolu ilçelerini birbirine bağlayan ve 18 Mart 2022’de hizmete açılan dünyanın en uzun orta açıklıklı asma köprüsüdür. Cumhuriyetin 100. yılına atfen belirlenen 2.023 metre orta açıklığı ile Japonya’daki Akashi Kaikyō Köprüsü’nü 32 metre geçerek dünya rekorunu kırmıştır. Yaklaşım viyadükleri dahil toplam uzunluğu 4.608 metreye ulaşmıştır. Köprünün 318 metre yüksekliğindeki çelik kuleleri, Çanakkale Savaşı’ndaki 18 Mart 1915 zaferine atfen 3 ve 18 rakamlarından türetilmiştir. Kulelerin tepelerine yerleştirilen 16 metre boyundaki top mermisi figürleri, Seyit Onbaşı’nın tek başına kaldırdığı mermileri simgelemekte olup bu eklemeyle köprü 334 metre toplam yüksekliğe ulaşarak dünyanın en yüksek kulelerine sahip asma köprüsü unvanını da almıştır. Türk bayrağından esinlenen kırmızı-beyaz kule renkleri, köprüyü mühendislik harikası olmanın ötesinde ulusal bir sembol haline getirmiştir.",
         image: 'assets/project_canakkale_bridge_1769107033076.png'
     },
     yavuz: {
@@ -25,7 +25,7 @@ const PROJECT_DATA = {
             'Kule Yüksekliği': '322 m',
             'Genişlik': '59 m'
         },
-        description: "İstanbul Boğazı üzerindeki üçüncü köprü olan Yavuz Sultan Selim Köprüsü, hem karayolu hem de demiryolu geçişine sahip dünyanın en geniş asma köprüsüdür.",
+        description: "Yavuz Sultan Selim Köprüsü, İstanbul Boğazı’nın Karadeniz’e yakın kuzey kesiminde Garipçe (Sarıyer) ile Poyrazköy (Beykoz) arasında inşa edilen ve 26 Ağustos 2016’da hizmete açılan dünyanın en benzersiz köprülerinden biridir. 1.408 metre ana açıklığı, 59 metre genişliği ve 322 metre kule yüksekliği ile birden fazla dünya rekoruna sahiptir. Dünyanın en geniş köprüsü, üzerinde raylı sistem (hızlı tren) bulunan en uzun asma köprü ve eğik askılı köprü kategorisinde en yüksek kulelere sahip köprü. Hem asma köprü hem de gergin eğik askılı (cable-stayed) sistemin bir arada kullanıldığı hibrit tasarımı, dünya mühendislik tarihinde eşsiz bir yere sahiptir.",
         image: 'assets/project_yavuz_bridge_1769107047787.png'
     },
     osmangazi: {
@@ -37,7 +37,7 @@ const PROJECT_DATA = {
             'Yükseklik': '252 m',
             'Toplam Uzunluk': '2,682 m'
         },
-        description: "İzmit Körfezi'ni birbirine bağlayan bu devasa yapı, dünyanın işletmeye açık en büyük orta açıklıklı asma köprülerinden biridir.",
+        description: "Osmangazi Köprüsü, İzmit Körfezi’nde Dilovası (Kocaeli) ile Altınova (Yalova) arasında konumlanan ve 1 Temmuz 2016’da hizmete açılan Türkiye’nin dördüncü büyük asma köprüsüdür. 1.550 metre orta açıklığı ve 2.682 metre toplam uzunluğu ile hizmete girdiğinde dünyanın dördüncü en uzun açıklıklı asma köprüsü unvanını almıştır. Gebze-Orhangazi-İzmir Otoyolu’nun (O-5) kritik bir parçası olan köprü, İstanbul-İzmir arasındaki 8 saatlik yolculuğu 3,5 saate, körfez geçişini ise 2 saatten sadece 6 dakikaya indirmiştir.",
         image: 'assets/project_osmangazi_bridge_1769107063229.png'
     },
     zigana: {
@@ -49,7 +49,7 @@ const PROJECT_DATA = {
             'Tüp Sayısı': '2',
             'Rakım': '1,212 m'
         },
-        description: "Doğu Karadeniz'i Orta Anadolu'ya bağlayan Zigana Tüneli, Avrupa'nın ve Türkiye'nin en uzun karayolu tünelidir.",
+        description: "Zigana Tüneli, Trabzon ile Gümüşhane illeri arasında Kuzey Anadolu Dağları’nı geçen ve 3 Mayıs 2023’te hizmete açılan Türkiye’nin en uzun karayolu tünelidir. 14.476 metre (yaklaşık 14,5 km) uzunluğuyla Avrupa’nın da en uzun karayolu tüneli unvanına sahiptir. Çift tüplü (2x2 şerit) olarak inşa edilen tünel, 2.032 metre yüksekliğindeki zorlu Zigana Geçidi’ni devre dışı bırakarak yolu 8 km, yolculuk süresini ise ağır vasıtalar için 60 dakika, otomobiller için ortalama 20 dakika kısaltmıştır. Yapımına Nisan 2016’da başlanan proje, 7 yıl 9 günde tamamlanmıştır.",
         image: 'assets/zigana_tunnel_minimal_text_1769109119084.png'
     },
     ovit: {
@@ -61,7 +61,7 @@ const PROJECT_DATA = {
             'Tüp Sayısı': '2',
             'Yapım Yılı': '2018'
         },
-        description: "Rize ile Erzurum'u birbirine bağlayan Ovit Tüneli, kış aylarında kapanan yolları yıl boyu açık tutarak stratejik bir ulaşım koridoru sağlar.",
+        description: "Ovit Tüneli, Rize ile Erzurum arasında 2.640 metre rakımlı Ovit Dağı Geçidi’ni aşan ve 13 Haziran 2018’de hizmete açılan devasa bir mühendislik projesidir. 14,3 km toplam uzunluğuyla (12,6 km tünel kazısı + 1,7 km aç-kapa bölümü) Türkiye’nin en uzun ikinci, Avrupa’nın en uzun üçüncü ve dünyanın en uzun dördüncü çift tüplü karayolu tünelidir. Bu proje, 138 yıllık bir hayalin gerçekleşmesidir: Sultan II. Abdülhamit döneminde (1880’ler) başlayan proje taslakları, 132 yıl sonra modern teknoloji ile hayata geçirilmiştir. Delme-patlatma tekniği ile yaklaşık 6 yıl 1 ay 2 günde  inşa edilmiştir. Tünelin giriş kotu 2.054 metre, çıkış kotu 2.260 metredir. Kasım-Nisan ayları arasında yoğun kar yağışı nedeniyle trafiğe kapanan İkizdere-İspir güzergahı, tünel sayesinde artık yılın 12 ayı kesintisiz ulaşıma açıktır. Rize-Erzurum arasındaki mesafe 4,4 km kısalmış, yolculuk güvenliği ve konforu önemli ölçüde artmıştır.",
         image: 'assets/project_ovit_tunnel_1769107093438.png'
     }
 };
@@ -248,7 +248,7 @@ function initSimulation() {
                 simulationPreview.style.height = '100%';
                 simulationPreview.classList.remove('blueprint-frame'); // Remove padding/border
             }
-            
+
             const webglSrc = WEBGL_MAP[projectId];
             if (!webglSrc) {
                 console.error('WebGL path not found for project:', projectId);
@@ -277,7 +277,7 @@ function initSimulation() {
                     simulationPreview.innerHTML = '<p style="color:red;">Simülasyon yüklenemedi.</p>';
                     return;
                 }
-                
+
                 // Create and configure the iframe for the WebGL content
                 const iframe = document.createElement('iframe');
                 iframe.src = webglSrc;
